@@ -171,10 +171,10 @@ const questions = [
   
     // Set image based on result
     if (resultType === "batrick") {
-        resultImage.src = "images/super-batrick.png";
+        resultImage.src = "images/batrick-super.png";
         resultImage.alt = "Εικόνα Batrick";
     } else if (resultType === "rocky") {
-        resultImage.src = "images/super-rocky.png";
+        resultImage.src = "images/rocky-super.png";
         resultImage.alt = "Εικόνα Ρόκι";
     }
 }
