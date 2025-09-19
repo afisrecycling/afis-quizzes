@@ -1,0 +1,132 @@
+body {
+    font-family: 'Geologica', sans-serif;
+    background-color: #F4EFE9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #intro-container,
+  #result-container 
+  {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #E1DAC3;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease;
+  }
+
+  #quiz-container
+  {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #E1DAC3;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease;
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  #question-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #answer-buttons button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-color: #ABBB99;
+    color: #1c1c1c;
+    transition: background-color 0.3s ease, border 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for answers */
+  #answer-buttons button:hover {
+    background-color: #90A47A;
+  }
+
+  #result-prompt {
+    font-style: italic;
+    font-weight: light;
+    color:#535353;
+    margin-top: 20px;
+  }
+
+  #result-title {
+    display: block;
+    font-size: 3rem; /* You can adjust this value as needed */
+    font-weight: bold;
+    margin-top: 10px;
+    color: #7DA797; /* Optional: matching your palette */
+  }
+  
+  /* Selected answer stays green and bold */
+  .selected {
+    background-color: #90A47A !important;
+    font-weight: bold;
+    border: 2px solid #7DA797;
+  }
+  
+  /* Navigation buttons (Start, Next, Play Again) */
+  .nav-button {
+    background-color: #CA782D;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Keep same color on hover */
+  .nav-button:hover {
+    background-color: #CA782D;
+  }
+
+  .question-img {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 900px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 12px;
+  }
+
+  .result-img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 450px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 12px;
+  }
+  
+  /* Result backgrounds */
+  .result-batrick {
+    background-color: #E0F7EC;
+  }
+  
+  .result-rocky {
+    background-color: #FFE9D6;
+  }
+  
+  .hidden {
+    display: none;
+  }
